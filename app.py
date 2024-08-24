@@ -1,3 +1,8 @@
+import os
+os.system('pip install random')
+os.system('pip install websocket')
+os.system('pip install websocket-client')
+os.system('pip install requests')
 import websocket
 import ssl
 import os
