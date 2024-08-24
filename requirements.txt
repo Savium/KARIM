@@ -1,0 +1,4 @@
+random
+websocket
+websocket-client
+requests
