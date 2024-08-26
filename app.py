@@ -20,12 +20,12 @@ failed=0
 G = '\033[1;32m'
 R = '\033[1;31m'
 own_id='761058551'
-tele_bot='7058797529:AAGqxVVZOwg7KT556HIIPlD0nhGg6RKrj2E'
+tele_bot='7003770029:AAHcL5Yvj4faVa7dfUL6A9DWRGEesgdz7_8'
 ch='qwertyuioplkjhgfdsazxcvbnm1234567890'
 def create():
  global created
  global failed
- user=str(random.choice('qwertyuioplkjhgfdsazxcvbnm')[0])+str(''.join(random.choice(ch) for i in range(5)))
+ user=str(random.choice('qwertyuioplkjhgfdsazxcvbnm')[0])+str(''.join(random.choice(ch) for i in range(7)))
  
  #user='kdvdfejevfsheh'
  
@@ -58,7 +58,7 @@ def create():
   print(decoded_data)
 
 
-executor=concurrent.futures.ThreadPoolExecutor(max_workers=500)
+executor=concurrent.futures.ThreadPoolExecutor(max_workers=700)
 
 while True:
  executor.submit(create)
